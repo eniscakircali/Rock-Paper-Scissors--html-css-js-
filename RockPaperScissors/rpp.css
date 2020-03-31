@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+body{
+    background:rgb(56, 45, 59);
+}
+header{
+    box-shadow: 0px 32px 25px -8px rgba(26, 25, 25, 0.75);
+    background: white;
+    padding: 2%;
+    background-color: rgb(180, 148, 178);
+
+}
+header:hover{
+    transition: linear 0.8s;
+    background-color: rgb(102, 51, 0) ;
+}
+header > h1{
+    color: rgb(102, 51, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif, bold;
+
+}
+header > h1:hover{
+    transition: linear 0.8s;
+    color:rgb(180, 148, 178);
+}
+.score-board{
+    border: 5px solid orange;
+    width: 300px;
+    height: 130px;
+    margin: 20px auto;
+    color: peru;
+    font-size:40px;
+    border-radius: 4px;
+    text-align: center;
+    padding:34px 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+#user-score{
+    margin-right: 20px;
+}
+#computer-score{
+    margin-left: 10px;
+}
+.badge{
+    background-color: purple;
+}
+#user-lable{
+    position: absolute;
+    top:40px;
+    left: -50px;
+}
+#computer-lable{
+    position: absolute; 
+    top:40px;
+    right: -50px;
+}
+.result{
+    color: rgb(180, 148, 178);
+    text-align: center;
+    margin-top: 50px;
+}
+.choice{
+    padding-top: 30px;
+    padding-left: 30%;
+
+}
+.choice:hover{
+    cursor: pointer;
+}
+.rock{
+    margin-right: 20px;
+    width: 190px;
+    height: 190px;
+}
+.paper{
+    margin-right: 20px;
+    width: 190px;
+    height: 190px;
+}
+.scissors{
+    width: 190px;
+    height: 190px;
+}
+#action-message{
+    color: rgb(180, 148, 178);
+    margin-top: 20px;
+    text-align: center;
+}
